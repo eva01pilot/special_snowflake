@@ -18,7 +18,6 @@
       ilya = import ./home/home.nix;
     };
   };
-  ags.url = "github:Aylur/ags";
 
   nix.settings.experimental-features = "nix-command flakes";
   # Bootloader.
