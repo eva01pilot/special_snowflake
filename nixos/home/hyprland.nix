@@ -93,6 +93,7 @@ let
         "$mainMod, mouse_up, workspace, e-1"
       ];
       exec-once = [
+        "hyprctl setcursor Catppuccin-Mocha-Dark-Cursors 24"
         "bash ./vpn.sh"
         "bash ./start.sh"
         ''${startupScript}/bin/start''

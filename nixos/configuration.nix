@@ -95,6 +95,7 @@
       rxvt-unicode
       picom
       rofi
+      chromium
     ];
   };
 

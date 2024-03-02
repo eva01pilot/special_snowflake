@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./kitty.nix
     ./hyprland.nix
     inputs.ags.homeManagerModules.default
   ];
@@ -14,6 +15,19 @@
   home.stateVersion = "23.11"; # Please read the comment before changing.
   home.packages = [
   ];
+
+  qt.enable = true;
+  qt.platformTheme = "gtk";
+  qt.style.name = "adwaita-dark";
+  home.pointerCursor = {
+
+    name = "Catppuccin-Mocha-Dark-Cursors";
+
+    package = pkgs.catppuccin-cursors.mochaDark;
+
+    size = 16;
+
+  };
 
   home.file = { };
   programs.ags = {
