@@ -1,4 +1,4 @@
-@define-color bg rgba(4, 20, 45, 0.50);
+@define-color bg rgb(4, 20, 45);
 @define-color bg-alt #252428;
 @define-color fg #f5f5f5;
 @define-color alert #f53c3c;

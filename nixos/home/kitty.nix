@@ -1,3 +1,7 @@
 {config, pkgs, ...}: {
-  home.file.".config/kitty/kitty.conf".source = "./kitty/kitty.conf";
+  programs.kitty = {
+    enable = true;
+    extraConfig = builtins.readFile ./kitty/kitty.conf;
+  };
+
 }

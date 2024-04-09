@@ -6,7 +6,7 @@ let
 
       sleep 1
 
-      ${pkgs.swww}/bin/swww img ${./mikubath.jpg} &
+      ${pkgs.swww}/bin/swww img ${./station} &
     '';
     vpn = pkgs.pkgs.writeShellScriptBin "vpn" '' ss-local config.json -v -c
     /etc/shadowsocks-libev/config.json '';

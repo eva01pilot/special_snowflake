@@ -88,6 +88,9 @@
     description = "ilya";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
+      ripgrep
+      google-chrome
+      vlc
       firefox
       kate
       telegram-desktop
@@ -96,6 +99,7 @@
       picom
       rofi
       chromium
+      vscode
     ];
   };
 
@@ -106,6 +110,9 @@
   # $ nix search wget
 
   environment.systemPackages = with pkgs; [
+    zoom
+    obs-studio
+    wget
     grim
     slurp
     wl-clipboard
@@ -133,6 +140,7 @@
     spotify
     nix-prefetch-github
     neofetch
+    python3
   ];
 
 
