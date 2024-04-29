@@ -88,6 +88,7 @@
     description = "ilya";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
+      pavucontrol
       ripgrep
       google-chrome
       vlc

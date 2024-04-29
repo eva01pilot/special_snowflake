@@ -95,7 +95,6 @@ let
       exec-once = [
         "hyprctl setcursor Catppuccin-Mocha-Dark-Cursors 24"
         "bash ./vpn.sh"
-        "bash ./start.sh"
         ''${startupScript}/bin/start''
         ''${vpn}/bin/start''
       ];
