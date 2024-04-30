@@ -88,6 +88,7 @@
     description = "ilya";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
+      filezilla
       pavucontrol
       ripgrep
       google-chrome
