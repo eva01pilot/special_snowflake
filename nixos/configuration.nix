@@ -89,6 +89,7 @@
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
       filezilla
+      go
       pavucontrol
       ripgrep
       google-chrome
