@@ -88,6 +88,8 @@
     description = "ilya";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
+      postman
+      dbeaver
       filezilla
       go
       pavucontrol
